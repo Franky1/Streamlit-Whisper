@@ -104,7 +104,7 @@ if __name__ == "__main__":
         st.markdown('''---''')
 
     with st.spinner("Loading Openai Model for the first time, please wait..."):
-        model = load_model(name="small")
+        model = load_model(name="medium")
 
     st.subheader("Upload Audio File")
     audio_file = st.file_uploader("Upload Audio", type=["wav", "mp3", "m4a", "ogg"])

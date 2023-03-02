@@ -18,10 +18,11 @@ Streamlit demo project for openai whisper.
 
 - [x] Test app locally with docker
 - [x] Use temporary directory for uploaded file
+- [x] Try deployment on streamlit cloud
+- [ ] Try larger models
 - [ ] Add audio recording to app
 - [ ] Try pre-download of model(?)
 - [ ] Use Git-LFS for model(?)
-- [ ] Try deployment on streamlit cloud
 - [ ] Improve layout of the frontend
 
 ## Resources
