@@ -12,6 +12,8 @@ Streamlit demo project for openai whisper.
 
 - Dependencies are very heavy (whisper, pytorch, transformers, etc.) and take a long time to install.
 - Model is not pre-downloaded and very huge, so it takes a long time to download the first time.
+- Larger models seems to crash on streamlit cloud, probably due to memory limits.
+- The largest model that seems to run locally and on streamlit cloud is `small`.
 - Transcribe takes a long time to run.
 
 ## ToDo
@@ -19,7 +21,7 @@ Streamlit demo project for openai whisper.
 - [x] Test app locally with docker
 - [x] Use temporary directory for uploaded file
 - [x] Try deployment on streamlit cloud
-- [ ] Try larger models
+- [x] Try larger models
 - [ ] Add audio recording to app
 - [ ] Try pre-download of model(?)
 - [ ] Use Git-LFS for model(?)
