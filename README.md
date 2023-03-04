@@ -1,12 +1,12 @@
 # Streamlit Openai Whisper
 
-[![Streamlit](https://img.shields.io/badge/Go%20To-Streamlit%20Cloud-red?logo=streamlit)](https://streamlit.io/)
+[![Streamlit](https://img.shields.io/badge/Go%20To-Streamlit%20Cloud-red?logo=streamlit)](https://franky1-whisper-streamlit-app-ode4s8.streamlit.app/)
 
 Streamlit demo project for openai whisper.
 
 ## Status
 
-> Work in progress - Not finished - Last changed: 2023-03-01
+> Work in progress - Not finished - Last changed: 2023-03-03
 
 ## Issues
 

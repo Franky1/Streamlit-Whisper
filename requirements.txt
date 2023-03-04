@@ -1,2 +1,2 @@
-openai-whisper
-streamlit
+streamlit>=1.19.0
+git+https://github.com/openai/whisper.git
