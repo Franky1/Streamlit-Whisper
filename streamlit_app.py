@@ -144,7 +144,9 @@ if __name__ == "__main__":
         col1, col2 = st.columns([5, 3], gap="large")
         with col1:
             st.subheader("Upload Audio File 🎵")
-            audio_file = st.file_uploader("Upload Audio", type=["wav", "mp3", "m4a", "ogg"], label_visibility="collapsed")
+            audio_file = st.file_uploader("Upload Audio",
+                                        type=["wav", "mp3", "m4a", "ogg"],
+                                        label_visibility="collapsed")
         with col2:
             st.subheader("Record Audio 🎤")
             audio = audiorecorder("Click to record", "Recording...")

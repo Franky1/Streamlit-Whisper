@@ -40,6 +40,7 @@ Streamlit demo project for Openai Whisper.
 - Streamlit Custom Components for Audio Recording
   - streamlit-webrtc 🤷‍♂️
     - <https://github.com/whitphx/streamlit-webrtc>
+    - <https://github.com/whitphx/streamlit-stt-app>
   - streamlit-audiorecorder 🤷‍♂️
     - <https://github.com/theevann/streamlit-audiorecorder>
   - audio-recorder-streamlit 🤷‍♂️
