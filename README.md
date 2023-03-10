@@ -6,17 +6,17 @@ Streamlit demo project for Openai Whisper.
 
 ## Status ✔️
 
-> Streamlit App works - Has some issues - Last changed: 2023-03-04
+> Streamlit App works - Has some issues - Last changed: 2023-03-10
 
 ## Issues 🚩
 
 - Dependencies of `whisper` are very heavy (pytorch, transformers, cuda...) and take a long time to install.
 - Model is not pre-downloaded and very huge, so it takes a long time to download the first time.
 - Larger models above the `small` model seems to crash on streamlit cloud, probably due to memory limits.
-- The largest model that seems to run locally and on streamlit cloud is `small`.
+- The largest model that seems to run locally and on streamlit cloud is the `small` model.
 - Usage of Git-LFS for pre-downloaded model also does not make sense, because at least in the free version of GitHub, you only get 1GB of storage space and 1GB of bandwidth per month.
-- Transcribe takes a long time to run.
-- The audiorecorder component is not working.
+- The transcribe process takes a long time, probably due to the lack of GPU support.
+- The currently used audiorecorder component is not working. Have to check out other alternatives.
 
 ## ToDo ☑️
 
@@ -28,7 +28,7 @@ Streamlit demo project for Openai Whisper.
 - [x] Add custom audio recording component to streamlit app
 - [ ] Fix and test audiorecorder issue
 - [ ] Try other audio recording components
-- [ ] Improve layout of the frontend
+- [ ] Improve visual layout of the frontend
 - [ ] Restructure file structure
 
 ## Resources 📚
