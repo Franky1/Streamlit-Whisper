@@ -1,5 +1,6 @@
-streamlit>=1.19.0
+streamlit
 streamlit-audiorecorder
 audio-recorder-streamlit
-streamlit-webrtc
-git+https://github.com/openai/whisper.git
+openai-whisper
+# streamlit-webrtc
+# git+https://github.com/openai/whisper.git
