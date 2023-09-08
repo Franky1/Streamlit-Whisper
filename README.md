@@ -38,12 +38,14 @@ Streamlit demo project for Openai Whisper.
 - Openai Whisper ❤️
   - <https://github.com/openai/whisper>
 - Streamlit Custom Components for Audio Recording
-  - streamlit-webrtc 🤷‍♂️
-    - <https://github.com/whitphx/streamlit-webrtc>
-    - <https://github.com/whitphx/streamlit-stt-app>
   - streamlit-audiorecorder 🤷‍♂️
     - <https://github.com/theevann/streamlit-audiorecorder>
   - audio-recorder-streamlit 🤷‍♂️
     - <https://github.com/Joooohan/audio-recorder-streamlit>
+  - streamlit-mic-recorder 🤷‍♂️
+    - <https://github.com/B4PT0R/streamlit-mic-recorder>
+  - streamlit-webrtc 🤷‍♂️
+    - <https://github.com/whitphx/streamlit-webrtc>
+    - <https://github.com/whitphx/streamlit-stt-app>
   - streamlit_audio_recorder 🤔
     - <https://github.com/stefanrmmr/streamlit_audio_recorder>
